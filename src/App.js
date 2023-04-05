@@ -1,7 +1,11 @@
-import React from 'react'
+import Users from './components/Users'
 
 const App = () => {
-  return <div>App</div>
+  return (
+    <>
+      <Users />
+    </>
+  )
 }
 
 export default App
